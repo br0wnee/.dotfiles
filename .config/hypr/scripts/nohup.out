@@ -1,0 +1,412 @@
+/bin/sh: line 1: hyprlock: command not found
+ok
+/bin/sh: line 1: hyprlock: command not found
+[LOG] Registered timeout rule for 150s:
+      on-timeout: brightnessctl -s set 10
+      on-resume: brightnessctl -r
+[LOG] Registered timeout rule for 150s:
+      on-timeout: brightnessctl -sd rgb:kbd_backlight set 0
+      on-resume: brightnessctl -rd rgb:kbd_backlight
+[LOG] Registered timeout rule for 300s:
+      on-timeout: loginctl lock-session
+      on-resume: 
+[LOG] Registered timeout rule for 330s:
+      on-timeout: hyprctl dispatch dpms off
+      on-resume: hyprctl dispatch dpms on
+[LOG] Registered timeout rule for 1800s:
+      on-timeout: systemctl suspend
+      on-resume: 
+[LOG]   | got iface: wl_shm v1
+[LOG]   | got iface: wl_drm v2
+[LOG]   | got iface: zwp_linux_dmabuf_v1 v4
+[LOG]   | got iface: wl_compositor v6
+[LOG]   | got iface: wl_subcompositor v1
+[LOG]   | got iface: wl_data_device_manager v3
+[LOG]   | got iface: zwlr_export_dmabuf_manager_v1 v1
+[LOG]   | got iface: zwlr_data_control_manager_v1 v2
+[LOG]   | got iface: zwp_primary_selection_device_manager_v1 v1
+[LOG]   | got iface: wp_viewporter v1
+[LOG]   | got iface: zwlr_gamma_control_manager_v1 v1
+[LOG]   | got iface: zwlr_output_power_manager_v1 v1
+[LOG]   | got iface: xdg_wm_base v6
+[LOG]   | got iface: wl_seat v9
+[LOG]    > Bound to wl_seat v9
+[LOG]   | got iface: wp_presentation v1
+[LOG]   | got iface: ext_idle_notifier_v1 v1
+[LOG]    > Bound to ext_idle_notifier_v1 v1
+[LOG]   | got iface: zwlr_layer_shell_v1 v4
+[LOG]   | got iface: org_kde_kwin_server_decoration_manager v1
+[LOG]   | got iface: zxdg_decoration_manager_v1 v1
+[LOG]   | got iface: zwlr_output_manager_v1 v4
+[LOG]   | got iface: zwp_keyboard_shortcuts_inhibit_manager_v1 v1
+[LOG]   | got iface: zwp_pointer_constraints_v1 v1
+[LOG]   | got iface: zwp_relative_pointer_manager_v1 v1
+[LOG]   | got iface: zwp_virtual_keyboard_manager_v1 v1
+[LOG]   | got iface: zwlr_virtual_pointer_manager_v1 v2
+[LOG]   | got iface: zwlr_foreign_toplevel_manager_v1 v3
+[LOG]   | got iface: wp_drm_lease_device_v1 v1
+[LOG]   | got iface: wp_drm_lease_device_v1 v1
+[LOG]   | got iface: zwp_tablet_manager_v2 v1
+[LOG]   | got iface: zwp_idle_inhibit_manager_v1 v1
+[LOG]   | got iface: zxdg_exporter_v1 v1
+[LOG]   | got iface: zxdg_importer_v1 v1
+[LOG]   | got iface: zxdg_exporter_v2 v1
+[LOG]   | got iface: zxdg_importer_v2 v1
+[LOG]   | got iface: zwp_pointer_gestures_v1 v3
+[LOG]   | got iface: zwp_text_input_manager_v3 v1
+[LOG]   | got iface: zwp_input_method_manager_v2 v1
+[LOG]   | got iface: xdg_activation_v1 v1
+[LOG]   | got iface: ext_session_lock_manager_v1 v1
+[LOG]   | got iface: wp_cursor_shape_manager_v1 v1
+[LOG]   | got iface: wp_tearing_control_manager_v1 v1
+[LOG]   | got iface: wp_single_pixel_buffer_manager_v1 v1
+[LOG]   | got iface: xwayland_shell_v1 v1
+[LOG]   | got iface: hyprland_toplevel_export_manager_v1 v2
+[LOG]   | got iface: wp_fractional_scale_manager_v1 v1
+[LOG]   | got iface: zwp_text_input_manager_v1 v1
+[LOG]   | got iface: hyprland_global_shortcuts_manager_v1 v1
+[LOG]   | got iface: zwlr_screencopy_manager_v1 v3
+[LOG]   | got iface: zxdg_output_manager_v1 v3
+[LOG]   | got iface: wl_output v4
+[LOG] found 5 rules
+[LOG] wayland done, registering dbus
+[LOG] Using dbus path /org/freedesktop/login1/session/_38
+[LOG] Got PrepareForSleep from dbus with sleep true
+[LOG] Running: loginctl lock-session
+[LOG] Executing loginctl lock-session
+[LOG] Process Created with pid 10915
+[LOG] Got dbus .Session
+[LOG] Got Lock from dbus
+[LOG] Locking with pidof hyprlock || hyprlock
+[LOG] Executing pidof hyprlock || hyprlock
+[LOG] Process Created with pid 10922
+[LOG] Got PrepareForSleep from dbus with sleep false
+[LOG] Running: hyprctl dispatch dpms on
+[LOG] Executing hyprctl dispatch dpms on
+[LOG] Process Created with pid 11052
+[LOG] Got PrepareForSleep from dbus with sleep true
+[LOG] Running: loginctl lock-session
+[LOG] Executing loginctl lock-session
+[LOG] Process Created with pid 11135
+[LOG] Got dbus .Session
+[LOG] Got Lock from dbus
+[LOG] Locking with pidof hyprlock || hyprlock
+[LOG] Executing pidof hyprlock || hyprlock
+[LOG] Process Created with pid 11137
+[LOG] Got PrepareForSleep from dbus with sleep false
+[LOG]ok
+Device 'rgb:kbd_backlight' not found.
+Updated device 'amdgpu_bl1':
+Device 'amdgpu_bl1' of class 'backlight':
+	Current brightness: 10 (4%)
+	Max brightness: 255
+
+/bin/sh: line 1: hyprlock: command not found
+ok
+/bin/sh: line 1: hyprlock: command not found
+ok
+Device 'rgb:kbd_backlight' not found.
+Device 'amdgpu_bl1' of class 'backlight':
+	Current brightness: 255 (100%)
+	Max brightness: 255
+
+ok
+Device 'rgb:kbd_backlight' not found.
+Updated device 'amdgpu_bl1':
+Device 'amdgpu_bl1' of class 'backlight':
+	Current brightness: 10 (4%)
+	Max brightness: 255
+
+/bin/sh: line 1: hyprlock: command not found
+ok
+Device 'rgb:kbd_backlight' not found.
+Device 'amdgpu_bl1' of class 'backlight':
+	Current brightness: 255 (100%)
+	Max brightness: 255
+
+ok
+Device 'rgb:kbd_backlight' not found.
+Updated device 'amdgpu_bl1':
+Device 'amdgpu_bl1' of class 'backlight':
+	Current brightness: 10 (4%)
+	Max brightness: 255
+
+ Running: hyprctl dispatch dpms on
+[LOG] Executing hyprctl dispatch dpms on
+[LOG] Process Created with pid 11227
+[LOG] Idled: rule 55bc6e007868
+[LOG] Running brightnessctl -sd rgb:kbd_backlight set 0
+[LOG] Executing brightnessctl -sd rgb:kbd_backlight set 0
+[LOG] Process Created with pid 14566
+[LOG] Idled: rule 55bc6e007820
+[LOG] Running brightnessctl -s set 10
+[LOG] Executing brightnessctl -s set 10
+[LOG] Process Created with pid 14568
+[LOG] Idled: rule 55bc6e0078b0
+[LOG] Running loginctl lock-session
+[LOG] Executing loginctl lock-session
+[LOG] Process Created with pid 14580
+[LOG] Got dbus .Session
+[LOG] Got Lock from dbus
+[LOG] Locking with pidof hyprlock || hyprlock
+[LOG] Executing pidof hyprlock || hyprlock
+[LOG] Process Created with pid 14582
+[LOG] Idled: rule 55bc6e0078f8
+[LOG] Running hyprctl dispatch dpms off
+[LOG] Executing hyprctl dispatch dpms off
+[LOG] Process Created with pid 14585
+[LOG] Idled: rule 55bc6e007940
+[LOG] Running systemctl suspend
+[LOG] Executing systemctl suspend
+[LOG] Process Created with pid 14724
+[LOG] Got PrepareForSleep from dbus with sleep true
+[LOG] Running: loginctl lock-session
+[LOG] Executing loginctl lock-session
+[LOG] Process Created with pid 14729
+[LOG] Got dbus .Session
+[LOG] Got Lock from dbus
+[LOG] Locking with pidof hyprlock || hyprlock
+[LOG] Executing pidof hyprlock || hyprlock
+[LOG] Process Created with pid 14731
+[LOG] Got PrepareForSleep from dbus with sleep false
+[LOG] Running: hyprctl dispatch dpms on
+[LOG] Executing hyprctl dispatch dpms on
+[LOG] Process Created with pid 14876
+[LOG] Resumed: rule 55bc6e007940
+[LOG] Ignoring, onRestore is empty.
+[LOG] Resumed: rule 55bc6e0078f8
+[LOG] Running hyprctl dispatch dpms on
+[LOG] Executing hyprctl dispatch dpms on
+[LOG] Process Created with pid 14913
+[LOG] Resumed: rule 55bc6e0078b0
+[LOG] Ignoring, onRestore is empty.
+[LOG] Resumed: rule 55bc6e007868
+[LOG] Running brightnessctl -rd rgb:kbd_backlight
+[LOG] Executing brightnessctl -rd rgb:kbd_backlight
+[LOG] Process Created with pid 14915
+[LOG] Resumed: rule 55bc6e007820
+[LOG] Running brightnessctl -r
+[LOG] Executing brightnessctl -r
+[LOG] Process Created with pid 14917
+[LOG] Idled: rule 55bc6e007868
+[LOG] Running brightnessctl -sd rgb:kbd_backlight set 0
+[LOG] Executing brightnessctl -sd rgb:kbd_backlight set 0
+[LOG] Process Created with pid 27926
+[LOG] Idled: rule 55bc6e007820
+[LOG] Running brightnessctl -s set 10
+[LOG] Executing brightnessctl -s set 10
+[LOG] Process Created with pid 27928
+[LOG] Idled: rule 55bc6e0078b0
+[LOG] Running loginctl lock-session
+[LOG] Executing loginctl lock-session
+[LOG] Process Created with pid 27939
+[LOG] Got dbus .Session
+[LOG] Got Lock from dbus
+[LOG] Locking with pidof hyprlock || hyprlock
+[LOG] Executing pidof hyprlock || hyprlock
+[LOG] Process Created with pid 27941
+[LOG] Idled: rule 55bc6e0078f8
+[LOG] Running hyprctl dispatch dpms off
+[LOG] Executing hyprctl dispatch dpms off
+[LOG] Process Created with pid 27944
+[LOG] Resumed: rule 55bc6e0078f8
+[LOG] Running hyprctl dispatch dpms on
+[LOG] Executing hyprctl dispatch dpms on
+[LOG] Process Created with pid 28001
+[LOG] Resumed: rule 55bc6e0078b0
+[LOG] Ignoring, onRestore is empty.
+[LOG] Resumed: rule 55bc6e007868
+[LOG] Running brightnessctl -rd rgb:kbd_backlight
+[LOG] Executing brightnessctl -rd rgb:kbd_backlight
+[LOG] Process Created with pid 28003
+[LOG] Resumed: rule 55bc6e007820
+[LOG] Running brightnessctl -r
+[LOG] Executing brightnessctl -r
+[LOG] Process Created with pid 28005
+[LOG] Idled: rule 55bc6e007868
+[LOG] Running brightnessctl -sd rgb:kbd_backlight set 0
+[LOG] Executing brightnessctl -sd rgb:kbd_backlight set 0
+[LOG] Process Created with pid 30844
+[LOG] Idled: rule 55bc6e007820
+[LOG] Running brightnessctl -s set 10
+[LOG] Executing brightnessctl -s set 10
+[LOG] Process Created with pid 30846
+[LOG] Resumed: rule 55bc6e007868
+[LOG] Running brightnessctl -rd rgb:kbd_backlight
+[LOG] Executing brightnessctl -rd rgb:kbd_backlight
+[LOG] Process Created with pid 30850
+[LOG] Resumed: rule 55bc6e007820
+[LOG] Running brightnessctl -r
+[LOG] Executing brightnessctl -r
+[LOG] Process Created with pid 30Device 'rgb:kbd_backlight' not found.
+Device 'amdgpu_bl1' of class 'backlight':
+	Current brightness: 255 (100%)
+	Max brightness: 255
+
+Device 'rgb:kbd_backlight' not found.
+Updated device 'amdgpu_bl1':
+Device 'amdgpu_bl1' of class 'backlight':
+	Current brightness: 10 (4%)
+	Max brightness: 255
+
+/bin/sh: line 1: hyprlock: command not found
+ok
+/bin/sh: line 1: hyprlock: command not found
+ok
+/bin/sh: line 1: hyprlock: command not found
+ok
+Device 'rgb:kbd_backlight' not found.
+Device 'amdgpu_bl1' of class 'backlight':
+	Current brightness: 255 (100%)
+	Max brightness: 255
+
+ok
+Device 'rgb:kbd_backlight' not found.
+Updated device 'amdgpu_bl1':
+Device 'amdgpu_bl1' of class 'backlight':
+	Current brightness: 10 (4%)
+	Max brightness: 255
+
+/bin/sh: line 1: hyprlock: command not found
+ok
+Device 'rgb:kbd_backlight' not found.
+Device 'amdgpu_bl1' of class 'backlight':
+	Current brightness: 255 (100%)
+	Max brightness: 255
+
+ok
+Device 'rgb:kbd_backlight' not found.
+Updated device 'amdgpu_bl1':
+Device 'amdgpu_bl1' of class 'backlight':
+	Current brightness: 10 (4%)
+	Max brightness: 255
+
+852
+[LOG] Idled: rule 55bc6e007868
+[LOG] Running brightnessctl -sd rgb:kbd_backlight set 0
+[LOG] Executing brightnessctl -sd rgb:kbd_backlight set 0
+[LOG] Process Created with pid 30861
+[LOG] Idled: rule 55bc6e007820
+[LOG] Running brightnessctl -s set 10
+[LOG] Executing brightnessctl -s set 10
+[LOG] Process Created with pid 30863
+[LOG] Idled: rule 55bc6e0078b0
+[LOG] Running loginctl lock-session
+[LOG] Executing loginctl lock-session
+[LOG] Process Created with pid 30868
+[LOG] Got dbus .Session
+[LOG] Got Lock from dbus
+[LOG] Locking with pidof hyprlock || hyprlock
+[LOG] Executing pidof hyprlock || hyprlock
+[LOG] Process Created with pid 30870
+[LOG] Idled: rule 55bc6e0078f8
+[LOG] Running hyprctl dispatch dpms off
+[LOG] Executing hyprctl dispatch dpms off
+[LOG] Process Created with pid 30873
+[LOG] Got PrepareForSleep from dbus with sleep true
+[LOG] Running: loginctl lock-session
+[LOG] Executing loginctl lock-session
+[LOG] Process Created with pid 30952
+[LOG] Got dbus .Session
+[LOG] Got Lock from dbus
+[LOG] Locking with pidof hyprlock || hyprlock
+[LOG] Executing pidof hyprlock || hyprlock
+[LOG] Process Created with pid 30955
+[LOG] Got PrepareForSleep from dbus with sleep false
+[LOG] Running: hyprctl dispatch dpms on
+[LOG] Executing hyprctl dispatch dpms on
+[LOG] Process Created with pid 31101
+[LOG] Got PrepareForSleep from dbus with sleep true
+[LOG] Running: loginctl lock-session
+[LOG] Executing loginctl lock-session
+[LOG] Process Created with pid 31160
+[LOG] Got dbus .Session
+[LOG] Got Lock from dbus
+[LOG] Locking with pidof hyprlock || hyprlock
+[LOG] Executing pidof hyprlock || hyprlock
+[LOG] Process Created with pid 31162
+[LOG] Got PrepareForSleep from dbus with sleep false
+[LOG] Running: hyprctl dispatch dpms on
+[LOG] Executing hyprctl dispatch dpms on
+[LOG] Process Created with pid 31270
+[LOG] Resumed: rule 55bc6e0078f8
+[LOG] Running hyprctl dispatch dpms on
+[LOG] Executing hyprctl dispatch dpms on
+[LOG] Process Created with pid 31343
+[LOG] Resumed: rule 55bc6e0078b0
+[LOG] Ignoring, onRestore is empty.
+[LOG] Resumed: rule 55bc6e007868
+[LOG] Running brightnessctl -rd rgb:kbd_backlight
+[LOG] Executing brightnessctl -rd rgb:kbd_backlight
+[LOG] Process Created with pid 31345
+[LOG] Resumed: rule 55bc6e007820
+[LOG] Running brightnessctl -r
+[LOG] Executing brightnessctl -r
+[LOG] Process Created with pid 31347
+[LOG] Idled: rule 55bc6e007868
+[LOG] Running brightnessctl -sd rgb:kbd_backlight set 0
+[LOG] Executing brightnessctl -sd rgb:kbd_backlight set 0
+[LOG] Process Created with pid 31590
+[LOG] Idled: rule 55bc6e007820
+[LOG] Running brightnessctl -s set 10
+[LOG] Executing brightnessctl -s set 10
+[LOG] Process Created with pid 31592
+[LOG] Idled: rule 55bc6e0078b0
+[LOG] Running loginctl lock-session
+[LOG] Executing loginctl lock-session
+[LOG] Process Created with pid 31601
+[LOG] Got dbus .Session
+[LOG] Got Lock from dbus
+[LOG] Locking with pidof hyprlock || hyprlock
+[LOG] Executing pidof hyprlock || hyprlock
+[LOG] Process Created with pid 31603
+[LOG] Idled: rule 55bc6e0078f8
+[LOG] Running hyprctl dispatch dpms off
+[LOG] Executing hyprctl dispatch dpms off
+[LOG] Process Created with pid 31606
+[LOG] Resumed: rule 55bc6e0078f8
+[LOG] Running hyprctl dispatch dpms on
+[LOG] Executing hyprctl dispatch dpms on
+[LOG] Process Created with pid 31645
+[LOG] Resumed: rule 55bc6e0078b0
+[LOG] Ignoring, onRestore is empty.
+[LOG] Resumed: rule 55bc6e007868
+[LOG] Running brightnessctl -rd rgb:kbd_backlight
+[LOG] Executing brightnessctl -rd rgb:kbd_backlight
+[LOG] Process Created with pid 31647
+[LOG] Resumed: rule 55bc6e007820
+[LOG] Running brightnessctl -r
+[LOG] Executing brightnessctl -r
+[LOG] Process Created with pid 31649
+[LOG] Idled: rule 55bc6e007868
+[LOG] Running brightnessctl -sd rgb:kbd_backlight set 0
+[LOG] Executing brightnessctl -sd rgb:kbd_backlight set 0
+[LOG] Process Created with pid 32128
+[LOG] Idled: rule 55bc6e007820
+[LOG] Running brightnessctl -s set 10
+[LOG] Executing brightnessctl -s set 10
+[LOG] Process Created with pid 32130
+[LOG] Idled: rule 55bc6e0078b0
+[LOG] Running loginctl lock-session
+[LOG] Executing loginctl lock-session/bin/sh: line 1: hyprlock: command not found
+ok
+Device 'rgb:kbd_backlight' not found.
+Device 'amdgpu_bl1' of class 'backlight':
+	Current brightness: 255 (100%)
+	Max brightness: 255
+
+ok
+Device 'rgb:kbd_backlight' not found.
+Updated device 'amdgpu_bl1':
+Device 'amdgpu_bl1' of class 'backlight':
+	Current brightness: 10 (4%)
+	Max brightness: 255
+
+/bin/sh: line 1: hyprlock: command not found
+ok
+Device 'rgb:kbd_backlight' not found.
+Device 'amdgpu_bl1' of class 'backlight':
+	Current brightness: 255 (100%)
+	Max brightness: 255
+
+ok
